@@ -1,16 +1,5 @@
 # Design and Decisions: Chat With Your Docs
 
-This document is the long-form companion to the [README](../README.md). It covers setup, architecture (with diagrams), how I would productionize on a hyper-scaler, RAG/LLM choices, technical trade-offs, engineering standards, how AI tools fit into the process, and what I would change with more time.
-
-Related measurement write-ups:
-
-- [rag-performance-report.md](rag-performance-report.md): baseline run against 400 PDFs
-- [rag-engineering-review.md](rag-engineering-review.md): fixes, before/after metrics, edge cases
-
-> **Voice note:** The narrative sections below are my engineering judgment from building and evaluating this system. AI tools helped implement and draft structure; the decisions and the "what failed" parts are mine.
-
----
-
 ## Table of contents
 
 1. [Quick setup](#1-quick-setup)
@@ -497,4 +486,3 @@ uv run python -m rag_kb.eval_smoke --gold eval/gold.jsonl
 uv run rag-kb-chat
 ```
 
-Numbers and edge-case tables live in [rag-engineering-review.md](rag-engineering-review.md). Screenshots checklist: [screenshots/README.md](screenshots/README.md).
