@@ -1,0 +1,28 @@
+# Secrets and local environment
+.env
+.venv/
+
+# Editor / assistant local state (keep shared .cursor rules & skills)
+.claude/settings.local.json
+.cursor/plans/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+data/chroma/
+data/ingest_progress.json
+knowledge-base/*.pdf
+knowledge-base/**/*.pdf
+knowledge-base/corpus_manifest.json
+!knowledge-base/.gitkeep
+.DS_Store
+.idea/
+.vscode/
+*.log

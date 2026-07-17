@@ -1,0 +1,22 @@
+---
+description: Never use em dashes; use standard keyboard punctuation only
+alwaysApply: true
+---
+
+# No Em Dashes
+
+Never use em dashes (Unicode U+2014, the character that looks like a long dash).
+
+Replace them with commas, colons, or parentheses.
+
+Use only standard keyboard punctuation in:
+- Agent replies
+- Docs and README
+- UI copy
+- Code comments
+- Commit messages
+
+Wrong: "Use Chroma — it is local."
+Right: "Use Chroma: it is local."
+Right: "Use Chroma (it is local)."
+Right: "Use Chroma, it is local."
